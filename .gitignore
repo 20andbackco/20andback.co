@@ -1,0 +1,33 @@
+# Ignore Hugo's build output
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+
+# Ignore the .hugo_build.lock file
+/.hugo_build.lock
+
+# Ignore build folder if using `docs/` for GitHub Pages
+# Comment this out if you're committing docs/ to serve Pages
+# /docs/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# Node modules (if using npm tooling)
+node_modules/
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# Ignore local environment and config files
+.env
+.env.*
