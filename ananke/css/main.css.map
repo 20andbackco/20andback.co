@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/Users/axel/20andback",
+	"sourceRoot": "/home/runner/work/20andback.co/20andback.co",
 	"sources": [
 		"ananke/css/main.css"
 	],
