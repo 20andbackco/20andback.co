@@ -1,0 +1,61 @@
+.post-content {
+    text-align: justify;
+}
+
+.entry-content {
+    text-align: justify;
+}
+
+.home-info .entry-content {
+    text-align: justify;
+}
+
+.article-content {
+    text-align: justify;
+}
+
+.post-content p {
+    text-align: justify;
+}
+
+.entry-content p {
+    text-align: justify;
+}
+
+.footer {
+    text-align: left;
+}
+
+.footer .addresses {
+    line-height: initial;
+}
+
+.footer .addresses div span {
+    opacity: 0.5;
+}
+
+.footer > span:last-child {
+    display: none;
+}
+
+.post-content hr {
+    border: none; /* Hides the original horizontal line */
+    margin: 0 0 20px 0; 
+    padding: 0 0;
+    height: initial;
+    background: initial;
+}
+
+.post-content hr::before {
+    content: " * \A* *"; /* Pyramid with three asterisks */
+    white-space: pre; /* Preserves formatting */
+    display: block; /* Makes it a block element */
+    text-align: center; /* Centers the pyramid */
+    font-family: monospace; /* Ensures consistent spacing */
+    color: #6c757d; /* Adjust the color */
+    line-height: 1.2; /* Adjusts spacing between rows */
+}
+ 
+input {
+    color: var(--primary);
+}
