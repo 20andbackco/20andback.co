@@ -1,4 +1,116 @@
 baseURL = 'https://20andback.co/'
 languageCode = 'en-us'
 title = '20 and back'
-theme = 'ananke'
+theme = 'PaperMod'
+
+copyright = ""
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+uglyURLs = false
+mainsections = [ "posts", "papermod" ]
+
+[minify]
+disableXML = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+env = "production"
+description = "20 and back, secret space program, jason rice"
+author = ""
+defaultTheme = "auto"
+ShowShareButtons = false
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = true
+images = [ "images/papermod-cover.png" ]
+custom_css = ["css/extended/custom.css"]
+
+  [params.footer]
+  text = """
+Buy me a drink—or better yet, a weekend getaway so I can keep writing about this: <br>
+<div class="addresses">
+  <div>Bitcoin: <span>bc1qvmew5mx4yxrl3n63cqxefmr2xar2shhy202747</span></div>
+  <div>Ethereum: <span>0x2FBbE1CcA0817288896e343ce085aE8E2e1bF8cA</span></div>
+  <div>Solana: <span>7buAUnuA8nR87fr6qUiWty8xCWemsTqH7u3Mgy4KsJud</span></div>
+</div>
+
+<form action="https://formspree.io/f/xvgkdzgw" method="post">
+  <label for="email">Stay updated:</label>
+  <input name="Email" id="email" type="email" placeholder="your email" required>
+  <button type="submit">submit</button>
+</form>
+"""
+  hideCopyright = true
+
+  # [params.profileMode]
+  # enabled = false
+  # title = "PaperMod"
+  # imageUrl = "#"
+  # imageTitle = "my image"
+
+  #   [[params.profileMode.buttons]]
+  #   name = "Archives"
+  #   url = "archives"
+
+  #   [[params.profileMode.buttons]]
+  #   name = "Tags"
+  #   url = "tags"
+
+  [params.homeInfoParams]
+  Title = ""
+  Content = """
+The *20 and back* narrative is a global phenomenon where thousands of people independently recover vivid memories of having served 20 years in secret military space programs—memories of advanced technology, alien encounters, and interplanetary missions, all buried under decades of suppression.
+"""
+
+  # [[params.socialIcons]]
+  # name = "github"
+  # title = "View Source on Github"
+  # url = "https://github.com/adityatelange/hugo-PaperMod"
+
+  # [[params.socialIcons]]
+  # name = "Discord"
+  # title = "Join discord community"
+  # url = "https://discord.gg/ahpmTvhVmp"
+
+  # [[params.socialIcons]]
+  # name = "X"
+  # title = "Share PaperMod on X/Twitter"
+  # url = "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
+
+  # [[params.socialIcons]]
+  # name = "KoFi"
+  # title = "Buy me a Ko-Fi :)"
+  # url = "https://ko-fi.com/adityatelange"
+
+  # [params.editPost]
+  # URL = "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+  # Text = "Suggest Changes"
+  # appendFilePath = true
+
+  [params.assets]
+  disableHLJS = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.x]
+disableInlineCSS = true
