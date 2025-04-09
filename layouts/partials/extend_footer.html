@@ -1,0 +1,8 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+	document.querySelector('.footer')?.childNodes.forEach(node => {
+		if (node.textContent.trim() === '·') { node.textContent = ''; }
+	});
+
+}); 
+</script>
